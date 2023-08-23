@@ -6,13 +6,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Debug Element Viewer
-* {
-  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
-}*/
-
 @media (min-width: 768px) {
   div.responsive-border {
     border-left: 2px solid rgba(220, 220, 220, 0.5);
@@ -209,10 +202,12 @@ ul.timeline:before {
   width: 2px;
   height: 100%;
 }
+
 ul.timeline > li {
   margin: 20px;
   padding-left: 20px;
 }
+
 ul.timeline > li:before {
   content: " ";
   background: white;
@@ -236,7 +231,7 @@ ul.timeline > li:before {
 }
 
 .carousel-item {
-  position: absolute !important; /* Bootstrap is insistent */
+  position: absolute !important;
   top: 0;
   right: 0;
   bottom: 0;
@@ -293,13 +288,4 @@ ul.timeline > li:before {
 .wrapper {
   overflow: hidden;
   position: relative;
-}
-
-/* Card-like background */
-.card-bg {
-  background-color: rgba(0, 0, 0, 0.3);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  display: flex;
-  justify-content: flex-start;
 }

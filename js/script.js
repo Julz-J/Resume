@@ -1,4 +1,4 @@
 /* Loading screen */
-$(window).on('load', function () {
-    $('#loading').hide();
-  }) 
+$(window).on("load", function () {
+  $("#loading").hide();
+});
