@@ -1,2 +1,2 @@
-# Resume
-Just a resume
+A website to show my profile.
+Made with HTML, CSS and Js.
